@@ -13,6 +13,7 @@ namespace WebApplication9
     {
         protected void Application_Start()
         {
+            var fisadf = 0;
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
